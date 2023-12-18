@@ -1,0 +1,13 @@
+project
+├── models
+│   └── Patient.js
+├── routes
+│   ├── frontDeskRoutes.js
+│   ├── nurseRoutes.js
+│   └── doctorRoutes.js
+├── views
+│   ├── index.ejs
+│   ├── patientList.ejs
+│   └── patientDetails.ejs
+├── app.js
+└── package.json

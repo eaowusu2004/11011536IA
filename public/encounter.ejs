@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+</head>
+<body>
+  <h1><%= title %></h1>
+  <form method="POST" action="/encounter">
+    <div>
+      <label for="patientId">Patient ID:</label>
+      <input type="text" id="patientId" name="patientId"><br>
+    </div>
+    <div>
+      <label for="dateAndTime">Date and Time:</label>
+      <input type="text" id="dateAndTime" name="dateAndTime"><br>
+    </div>
+    <div>
+      <label for="type">Type:</label>
+      <input type="text" id="type" name="type"><br>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</body>
